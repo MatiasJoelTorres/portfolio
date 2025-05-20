@@ -43,8 +43,7 @@ const projects = [
       "Sistema de gestión de aprendizaje musical (LMS) con cursos interactivos, evaluaciones automatizadas y seguimiento del progreso de los estudiantes.",
     image: "/images/education-platform.png",
     tags: ["React", "Node.js", "PostgreSQL", "GraphQL", "AWS"],
-    demoUrl: "",
-    repoUrl: "",
+    repoUrl: "https://github.com/MatiasJoelTorres/musicApp",
   },
 ]
 
