@@ -11,40 +11,41 @@ import { Badge } from "@/components/ui/badge"
 const projects = [
   {
     id: 1,
-    title: "E-commerce",
-    description:
-      "Plataforma de comercio electrónico para artesanos locales con sistema de pagos integrado, gestión de inventario y panel de administración personalizado.",
-    image: "/images/ecommerce-project.png",
-    tags: ["Nest.js", "TypeScript", "Swagger", "PostgreSQL", "React"],
-    repoUrl: "https://github.com/pi-rym/PM4BE-MatiasJoelTorres",
-  },
-  {
-    id: 2,
     title: "GeStocker",
     description:
       "Gestor de stock, con control en tiempo real de inventario, gestión de proveedores y clientes, y generación de informes de ventas. Hecho junto con un equipo de trabajo como proyecto final en Henry.",
-    image: "/images/dashboard-project.png",
+    image: "gestocker.jpg",
     tags: ["React", "D3.js", "Firebase", "Redux", "Material UI"],
     demoUrl: "https://ge-stocker.vercel.app/",
     repoUrl: "https://github.com/tu-usuario/finance-dashboard",
   },
   {
-    id: 3,
-    title: "SPA Drivers",
+    id: 2,
+    title: "E-commerce",
     description:
-      "Single page application que gestiona información sobre conductores de formula 1, cuenta con flitrados, ordenamiento y formularios de creacion",
-    tags: ["Redux", "Node.js", "React", "PostgreSQL", "Express"],
-    repoUrl: "https://github.com/MatiasJoelTorres/PI-drivers",
+      "Plataforma de comercio electrónico para artesanos locales con sistema de pagos integrado, gestión de inventario y panel de administración personalizado.",
+    image: "swagger.jpg",
+    tags: ["Nest.js", "TypeScript", "Swagger", "PostgreSQL", "React"],
+    repoUrl: "https://github.com/pi-rym/PM4BE-MatiasJoelTorres",
   },
   {
-    id: 4,
+    id: 3,
     title: "MusicApp",
     description:
       "Sistema de gestión de aprendizaje musical (LMS) con cursos interactivos, evaluaciones automatizadas y seguimiento del progreso de los estudiantes.",
-    image: "/images/education-platform.png",
+    image: "mpa.jpg",
     tags: ["React", "Node.js", "PostgreSQL", "GraphQL", "AWS"],
     demoUrl: "https://music-app-flame-eta.vercel.app/",
     repoUrl: "https://github.com/MatiasJoelTorres/musicApp",
+  },
+  {
+    id: 4,
+    title: "SPA Drivers",
+    description:
+      "Single page application que gestiona información sobre conductores de formula 1, cuenta con flitrados, ordenamiento y formularios de creacion",
+    image: "drivers.jpg",
+    tags: ["Redux", "Node.js", "React", "PostgreSQL", "Express"],
+    repoUrl: "https://github.com/MatiasJoelTorres/PI-drivers",
   },
 ]
 
