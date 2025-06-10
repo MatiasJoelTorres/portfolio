@@ -7,9 +7,8 @@ import Header from "@/components/header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Mi Portfolio - Proyectos y Trabajos",
+  title: "Matias Torres - Portfolio",
   description: "Portfolio profesional mostrando mis proyectos y habilidades",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
